@@ -1,0 +1,52 @@
+{
+  "company": "DIRESO GmbH",
+  "founded": 2021,
+  "founders": ["Frederic Zoll", "Benedict Zoll"],
+  "parent_group": "GEOTEAM Gruppe (gegr. 1992)",
+  "location": {
+    "headquarter": "Engelsbrand",
+    "office": "Pforzheim"
+  },
+  "contact": {
+    "email": "info@direso.de",
+    "phone": "+49 7231 97 35 20"
+  },
+  "branding": {
+    "colors": {
+      "primary": "#0055aa",
+      "accent": "#29b6e8"
+    },
+    "tone": "Professionell, direkt, Vertrauen durch Expertise — kein Startup-Jargon"
+  },
+  "products": {
+    "platform": {
+      "name": "DIRESO Plattform",
+      "description": "Die einzige Plattform, die alle Themen rund um Immobilienvermögen an einem Ort vereint",
+      "modules": ["Portfolio-Übersicht", "Dokumentenverwaltung", "Technischer Bauzustand", "ESG & Nachhaltigkeit", "Finanzen & Renditeoptimierung", "Kooperative Verwaltung"],
+      "packages": ["Vorsorge", "Management", "Performance"],
+      "pricing_model": "Abo / recurring revenue"
+    },
+    "scan": {
+      "name": "Gebäudescan",
+      "description": "Präzise 3D-Erfassung mit NavVis VLX Laserscanner in einem Ortstermin",
+      "output": ["3D-Punktwolke", "2D-Grundrisse (WoFlV, MF-GIF, DIN 277)", "3D-/BIM-Modelle (Revit, IFC)"],
+      "pricing_model": "Einzeldienstleistung"
+    }
+  },
+  "target_customers": [
+    "Institutionelle Eigentümer (Kommunen, Kirchen, Family Offices)",
+    "Mittelständische und private Portfolioinhaber (5+ Einheiten)"
+  ],
+  "positioning": "Keine Tech-Startup das Immobilien entdeckt hat — Immobilienprofis die Software gebaut haben weil sie die Lösung selbst gesucht haben",
+  "team": {
+    "size": 2,
+    "certifications": ["Zertifizierte Verkehrswertgutachter", "Projektentwickler", "Makler"]
+  },
+  "tech_stack": {
+    "website": "Astro + Tailwind CSS",
+    "platform_backend": "C# ASP.NET / Microsoft Azure",
+    "agents": "Python (dieses System)",
+    "internal_tools": "Django / Python (Donna — internes CRM & ERP, in Entwicklung)"
+  },
+  "current_priorities": []
+}
