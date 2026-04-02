@@ -164,6 +164,14 @@ class MemoryStore:
             result.append(d)
         return result
 
+    def delete_briefing(self, briefing_id: str) -> bool:
+        """Löscht ein Board-Briefing anhand der ID. Gibt True zurück wenn gefunden."""
+        with self._connect() as conn:
+            deleted = conn.execute(
+                "DELETE FROM board_briefings WHERE id=?", (briefing_id,)
+            ).rowcount
+        return deleted > 0
+
     # ── Workspace Artifacts ────────────────────────────────────────────────────
 
     def save_artifact(self, agent_name: str, filename: str, session_id: Optional[str] = None) -> str:
