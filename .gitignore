@@ -17,6 +17,9 @@ workspace/*.md
 workspace/*.txt
 workspace/*.pdf
 
+# Runtime
+worker.pid
+
 # DB
 *.db
 *.sqlite3
